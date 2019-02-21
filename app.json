@@ -1,12 +1,14 @@
 {
-  "pages":[
+  "pages": [
+    "pages/userLogin/login",
     "pages/userRegist/regist",
     "pages/index/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "LetsShoot",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTextStyle": "black"
+  },
+  "debug": true
 }
