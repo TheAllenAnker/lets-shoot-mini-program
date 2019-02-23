@@ -33,6 +33,7 @@ Page({
         },
         success: function (res) {
           wx.hideLoading();
+          console.log(res.data);
           var status = res.data.status;
           if (status == 200) {
             wx.showToast({

@@ -42,7 +42,7 @@ Page({
               app.userInfo = res.data.data;
             } else {
               wx.showToast({
-                title: res.data.msg,
+                title: res.data.msg == null ? '注册成功' : res.data.msg,
                 icon: 'none',
                 duration: 3000
               })
