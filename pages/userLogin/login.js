@@ -33,7 +33,6 @@ Page({
         },
         success: function (res) {
           wx.hideLoading();
-          console.log(res.data);
           var status = res.data.status;
           if (status == 200) {
             wx.showToast({
@@ -42,6 +41,9 @@ Page({
               duration: 3000
             })
             app.userInfo = res.data.data;
+            wx.redirectTo({
+              url: '../profile/profile',
+            })
           } else {
             wx.showToast({
               title: res.data.msg,
