@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/profile/profile",
     "pages/userLogin/login",
-    "pages/userRegist/regist"
+    "pages/userRegist/regist",
+    "pages/profile/profile",
+    "pages/bgmChoose/bgmChoose"
   ],
   "window": {
     "backgroundTextStyle": "light",
